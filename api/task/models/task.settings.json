@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasks",
+  "info": {
+    "name": "Task"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "due_date": {
+      "type": "date"
+    },
+    "assigned_to": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "richtext"
+    },
+    "condition": {
+      "type": "string"
+    }
+  }
+}
